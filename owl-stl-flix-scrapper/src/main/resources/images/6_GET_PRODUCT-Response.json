@@ -1,0 +1,260 @@
+{
+  "data": {
+    "products": {
+      "data": [
+        {
+          "__typename": "ProductEntity",
+          "id": "1102",
+          "attributes": {
+            "name": "Tech Guru",
+            "slug": "tech-guru",
+            "description": "<p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D MODEL DESCRIPTION</strong></span><br>&nbsp;</p><p>Whether it’s a tablet or a phone, this octopus is fond of gadgets to hold. What a tech savvy!</p><p>&nbsp;</p><ul><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">This STL file is recommended for FDM Printers!</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">3D Printing Time Based on <strong>Ender 3</strong>: Phone Holder: 08 Hours 58 Minutes<strong> (will vary accord to you printer model)</strong></span><br><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong> Tablet Holder: 1 Day 06 Hours 18 Minutes<strong> (will vary accord to you printer model)</strong></span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">Approximately Height:&nbsp;Phone Holder: 7,1 cm</span><br><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tablet Holder: 12,5 cm</span><br>&nbsp;</li></ul><p>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D PRINT FILE SETTINGS (FOR 0.4 MM NOZZLE)</strong></span></p><p>&nbsp;</p><ul><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Line Width/ Nozzle:&nbsp;</strong>0.4 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>First Layer Line Width:&nbsp;</strong>0.48 mm / 120%</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Average Speed:&nbsp;</strong>20mm/s (First Layer) / 50mm/s (All the other layers) | 20 mm/s (First Layer) / 500 mm/s (All the other layers on Bambu Lab)</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Initial Layer Height:&nbsp; </strong>0.16 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Layer Height:&nbsp; </strong>0.16 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Perimeters/ Walls:&nbsp;</strong>3.</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Infill (%):&nbsp;</strong>10% (Gyroid)</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Needs Support: </strong>No.</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Build Plate Adhesion:&nbsp;</strong>Skirt.</span></li></ul><p>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D TECHNICAL OVERVIEW</strong></span></p><p>&nbsp;</p><p><a href=\"https://youtu.be/noDkXhxENSA\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/noDkXhxENSA</a></p><p><span style=\"background-color:transparent;color:#000000;\">&nbsp;</span></p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>The parameters above are recommendations made by our staff; if you prefer, you can adapt them according to your preferences.</strong></span><br><br>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><i><strong>Happy Printing!</strong></i></span></p><p>&nbsp;</p>",
+            "iframe": null,
+            "updatedAt": "2023-11-04T18:24:05.645Z",
+            "bambu_file": {
+              "data": {
+                "id": "19495",
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "stl_preview": {
+              "data": null,
+              "__typename": "UploadFileEntityResponse"
+            },
+            "release_date": "2023-11-03",
+            "comments": {
+              "data": [],
+              "__typename": "CommentRelationResponseCollection"
+            },
+            "__typename": "Product",
+            "thumbnail": {
+              "data": {
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_thumb_ae8764a886.jpg",
+                  "__typename": "UploadFile"
+                },
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "hover": {
+              "data": {
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/WEBM_Tech_Guru_acd7887fe6.webm",
+                  "__typename": "UploadFile"
+                },
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "gallery": {
+              "data": [
+                {
+                  "id": "19563",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_1_a755912e38.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19567",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_2_fd82fbb7d7.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19565",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_3_5e0cb6256a.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19568",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_4_8a5d4b8900.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19564",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_5_57751ac057.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19566",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_6_07294b4b28.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19569",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_7_a6901c9217.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19570",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Tech_Guru_8_874f6f3705.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                }
+              ],
+              "__typename": "UploadFileRelationResponseCollection"
+            },
+            "keywords": "octopus, octopode, sea, ocean, animal, marine, tech, guru, phone holder, tablet holder, ipad, gadget, useful ",
+            "files": [
+              {
+                "text": "README",
+                "commercial_only": false,
+                "file": {
+                  "data": {
+                    "id": "19494",
+                    "__typename": "UploadFileEntity"
+                  },
+                  "__typename": "UploadFileEntityResponse"
+                },
+                "__typename": "ComponentPageFiles"
+              },
+              {
+                "text": "FILES",
+                "commercial_only": false,
+                "file": {
+                  "data": {
+                    "id": "19496",
+                    "__typename": "UploadFileEntity"
+                  },
+                  "__typename": "UploadFileEntityResponse"
+                },
+                "__typename": "ComponentPageFiles"
+              }
+            ],
+            "categories": {
+              "data": [
+                {
+                  "id": "19",
+                  "attributes": {
+                    "name": "Animals",
+                    "slug": "animals",
+                    "__typename": "Category"
+                  },
+                  "__typename": "CategoryEntity"
+                },
+                {
+                  "id": "16",
+                  "attributes": {
+                    "name": "Useful Prints",
+                    "slug": "useful-prints",
+                    "__typename": "Category"
+                  },
+                  "__typename": "CategoryEntity"
+                },
+                {
+                  "id": "10",
+                  "attributes": {
+                    "name": "Home Decor",
+                    "slug": "home-decor",
+                    "__typename": "Category"
+                  },
+                  "__typename": "CategoryEntity"
+                }
+              ],
+              "__typename": "CategoryRelationResponseCollection"
+            },
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "Intermediate",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Difficulty",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                },
+                {
+                  "attributes": {
+                    "name": "Filament",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Printer Type",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                },
+                {
+                  "attributes": {
+                    "name": "Very Long (More than 12 hours)",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Printing Time",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                }
+              ],
+              "__typename": "TagRelationResponseCollection"
+            },
+            "related_products": {
+              "data": [],
+              "__typename": "ProductRelationResponseCollection"
+            },
+            "products_related": {
+              "data": [],
+              "__typename": "ProductRelationResponseCollection"
+            },
+            "seo": null
+          }
+        }
+      ],
+      "__typename": "ProductEntityResponseCollection"
+    }
+  }
+}
