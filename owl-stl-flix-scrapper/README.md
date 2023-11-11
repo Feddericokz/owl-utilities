@@ -37,7 +37,7 @@ this blog by asking for scripts in any language of your choice.
 
 Headed to the page and logged in, they have an explorer that lets you filter by some attributes or make a search.
 
-![STLFlix_explore_page](./src/main/resources/images/0_0_STLFlix_explore_page.png)
+![STLFlix_explore_page](./src/main/resources/images/0_STLFlix_explore_page.png)
 
 Having worked in web development, I had a good idea of what I was looking for. Depending on the age of the page, 
 my approach would be different. For older pages, I would need to parse the HTML and extract the necessary data. 
@@ -489,12 +489,12 @@ We'll be using that to copy the GET_LIST_PRODUCT GraphQL request as a cURL comma
 With this curl, lets jump straight to GPT, Look at the following conversation: https://chat.openai.com/share/1e31f543-ed67-4b4e-8641-12f043aec22a
 
 I've asked ChatGPT to:
-- Create a groovy script
+- Create a groovy script.
 - Use okHttp client (I'm just used to it) to mimic the cURL request.
 - Loop through pages and fetch until there's no more pages.
 - Collect the contents of data list into a file.
-- Debug statements
-- Few fixes to the script
+- Debug statements.
+- Few fixes to the script.
 
 Then saved the file as `STLFlixGraphQLGetProductList.groovy`. When using GPT like this, it doesn't actually execute 
 the code it suggests, so it almost always needs a few tweaks to run, even tho sometimes it does run at once. 
@@ -518,11 +518,11 @@ Now we have all the **slugs** we need to make the GraphQL GET_PRODUCT request. S
 Look at the following conversation: https://chat.openai.com/share/75098574-ed64-4c78-8999-9b0dac33886e
 
 I've asked ChatGPT to:
-- Create a groovy script
+- Create a groovy script.
 - Use okHttp client to mimic the cURL request.
-- Parse a file to get the slug input
+- Parse a file to get the slug input.
 - Save results to a configurable file, collect contents of data list.
-- Debug statements
+- Debug statements.
 - Few fixes to the script.
 
 Then saved the file as `STLFlixGraphQLGetProducts.groovy`, Here's the difference between what I've built
@@ -538,47 +538,70 @@ groovy STLFlixGraphQLGetProductList.groovy
 
 ![fetched_complete_products](./src/main/resources/images/7_2_fetched_complete_products.png)
 
-___
-
-TBD.
-
-[Reword] Now I have all the information I need to get the file links, when I click to download a File, there's a 
-PRODUCT_FILE call that gets the link to download the file. 
-
-![API_PRODUCT_FILE](./src/main/resources/images/8_0_API_PRODUCT_FILE.png)
-
-[Reword] Follow same copyAsCurl procedure and ask GPT for a script that can loop through the files for the FID we've
-collected in earlier step.
+At this point, we have a file with all the file ids we need to make the PRODUCT_FILE API call, which will give us the 
+link to download the actual .stl files. Something we should think, is how all these files are going to be stored. Right now
+we have a single file with a bunch of JSON objects holding the information, but we cannot have a single folder with all
+the .stl and image files in it, that would be chaos. It would be really hard to find a specific file. In our next script,
+we'll ask ChatGPT to create this structure for us. Let's follow same strategy as before to make the request script.
 
 ![API_PRODUCT_FILE_copyAsCurl](./src/main/resources/images/9_0_API_PRODUCT_FILE_copyAsCurl.png)
 
-[GPT-4 Chat] https://chat.openai.com/share/fa5aa9d4-623b-49e0-a6c4-51045bcbcada
+Look at the following conversation: https://chat.openai.com/share/fa5aa9d4-623b-49e0-a6c4-51045bcbcada
 
-[Reword] Analysis of fixes to the script.
+I've asked ChatGPT to:
+- Create a groovy script.
+- Use okHttp client to mimic the cURL request.
+- Extract the jsonObjects from our file and loop through the file ids to make the request.
+- Create folders from the slug values, and create files with the product_file API call response, 
+while also saving the original Json.
+- Debug statements.
+- Few fixes.
 
-[TBD] Difference between what GPT gave me and what I've ended up executing.
+Then saved the file as `STLFlixApiProductFile.groovy`, Here's the difference between what I've built
+from what ChatGPT suggested vs what I ended up running: https://www.diffchecker.com/shtLIN8r/
 
-[Reword] Run the script.
+Let's run it.
+
+```
+groovy STLFlixApiProductFile.groovy
+``` 
 
 ![fetched_product_files](./src/main/resources/images/10_fetched_product_files.png)
 
 ![product_folders](./src/main/resources/images/11_product_folders.png)
 
-[Reword] Now I have a single folder, with all the information I need in order to get the files/images I want.
-All I need to do is come up with a script that can use the gathered links to download them.
 
-[GPT-4 Chat] https://chat.openai.com/share/612df2d3-6e28-4d2e-b73e-b2da0fb52138
+We're almost done! Now we have a single folder with all the information we need, among the data in those JSON object,
+are the links to download all the images and .stl files. Now we just need to come up with a simple script that will go
+through all these folders and files, and download such files.
 
-[TBD] Difference between what GPT gave me and what I've ended up executing.
+Look at the following conversation: https://chat.openai.com/share/612df2d3-6e28-4d2e-b73e-b2da0fb52138
 
-[Reword] Run the script.
+I've asked ChatGPT to:
+* Create a groovy script.
+* Loop through all the folders we've created.
+* Extract links from product_ prefixed and file_ prefixed files.
+* Use okHttp to download these files.
+
+
+Then saved the file as `STLFlixDownloadFiles.groovy`, Here's the difference between what I've built
+from what ChatGPT suggested vs what I ended up running: https://www.diffchecker.com/bHWSZG65/
+
+There's no difference for this one, ChatGPT did a great job. Let's run the script.
+
+```
+groovy STLFlixDownloadFiles.groovy
+```
 
 ![download_files](./src/main/resources/images/12_download_files.png)
 
 ![downloaded_files](./src/main/resources/images/13_downloaded_files.png)
 
-[Reword] And that's it, we have all the files.
+And that's it, we just let it run, and it will download all the files.
 
+## Conclusion
+
+TBD.
 
 
 
