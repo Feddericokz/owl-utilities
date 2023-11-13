@@ -1,0 +1,291 @@
+{
+  "data": {
+    "products": {
+      "data": [
+        {
+          "__typename": "ProductEntity",
+          "id": "1105",
+          "attributes": {
+            "name": "Clingy Octopus ",
+            "slug": "clingy-octopus",
+            "description": "<p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D MODEL DESCRIPTION</strong></span><br>&nbsp;</p><p>This cute octopus is not that clingy, it just loves everything too much.&nbsp;</p><p>&nbsp;</p><ul><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">This STL file is recommended for FDM Printers!</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">3D Printing Time Based on <strong>Ender 3</strong>: 12 Hours 09 Minutes<strong> (will vary accord to you printer model)</strong></span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\">Approximately Height:&nbsp;4,7 cm</span></li><li><strong>You will need n</strong><span style=\"background-color:rgb(255,255,255);color:rgb(77,81,86);\"><strong>eodymium </strong></span><strong>magnets 5mm X 3mm</strong><br>&nbsp;</li></ul><p>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D PRINT FILE SETTINGS (FOR 0.4 MM NOZZLE)</strong></span></p><p>&nbsp;</p><ul><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Line Width/ Nozzle:&nbsp;</strong>0.4 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>First Layer Line Width:&nbsp;</strong>0.48 mm / 120%</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Average Speed:&nbsp;</strong>20mm/s (First Layer) / 50mm/s (All the other layers) | 20 mm/s (First Layer) / 500 mm/s (All the other layers on Bambu Lab)</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Initial Layer Height:&nbsp; </strong>0.16 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Layer Height:&nbsp; </strong>0.16 mm</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Perimeters/ Walls:&nbsp;</strong>3.</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Recommended Infill (%):&nbsp;</strong>10% (Gyroid)</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Needs Support: </strong>No.</span></li><li><span style=\"background-color:transparent;color:hsl(0,0%,0%);\"><strong>Build Plate Adhesion:&nbsp;</strong>Skirt.</span></li></ul><p><span style=\"background-color:transparent;color:#000000;\">&nbsp;</span></p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>3D TECHNICAL OVERVIEW</strong></span></p><p>&nbsp;</p><p><a href=\"https://youtu.be/GJbi6cKGmpw\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/GJbi6cKGmpw</a></p><p>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><strong>The parameters above are recommendations made by our staff; if you prefer, you can adapt them according to your preferences.</strong></span><br><br>&nbsp;</p><p><span style=\"background-color:transparent;color:#3498DB;\"><i><strong>Happy Printing!</strong></i></span></p><p>&nbsp;</p>",
+            "iframe": null,
+            "updatedAt": "2023-11-04T18:25:15.774Z",
+            "bambu_file": {
+              "data": {
+                "id": "19503",
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "stl_preview": {
+              "data": null,
+              "__typename": "UploadFileEntityResponse"
+            },
+            "release_date": "2023-11-03",
+            "comments": {
+              "data": [
+                {
+                  "attributes": {
+                    "users_permissions_user": {
+                      "data": {
+                        "attributes": {
+                          "username": "SHAKA3D",
+                          "__typename": "UsersPermissionsUser"
+                        },
+                        "__typename": "UsersPermissionsUserEntity"
+                      },
+                      "__typename": "UsersPermissionsUserEntityResponse"
+                    },
+                    "text": "Fun easy print thanks ",
+                    "createdAt": "2023-11-04T02:12:17.382Z",
+                    "__typename": "Comment",
+                    "reply_comments": {
+                      "data": [],
+                      "__typename": "CommentRelationResponseCollection"
+                    }
+                  },
+                  "__typename": "CommentEntity"
+                },
+                {
+                  "attributes": {
+                    "users_permissions_user": {
+                      "data": {
+                        "attributes": {
+                          "username": "pmurph89",
+                          "__typename": "UsersPermissionsUser"
+                        },
+                        "__typename": "UsersPermissionsUserEntity"
+                      },
+                      "__typename": "UsersPermissionsUserEntityResponse"
+                    },
+                    "text": "I’m not sure if I messed with the original file, but my multicolor model printed the body color in parts of the eye along with the 3 other colors. ",
+                    "createdAt": "2023-11-06T04:38:33.777Z",
+                    "__typename": "Comment",
+                    "reply_comments": {
+                      "data": [],
+                      "__typename": "CommentRelationResponseCollection"
+                    }
+                  },
+                  "__typename": "CommentEntity"
+                },
+                {
+                  "attributes": {
+                    "users_permissions_user": {
+                      "data": {
+                        "attributes": {
+                          "username": "poetspoet@gmail.com",
+                          "__typename": "UsersPermissionsUser"
+                        },
+                        "__typename": "UsersPermissionsUserEntity"
+                      },
+                      "__typename": "UsersPermissionsUserEntityResponse"
+                    },
+                    "text": "would be great with a captive magnet option",
+                    "createdAt": "2023-11-06T18:02:33.929Z",
+                    "__typename": "Comment",
+                    "reply_comments": {
+                      "data": [],
+                      "__typename": "CommentRelationResponseCollection"
+                    }
+                  },
+                  "__typename": "CommentEntity"
+                }
+              ],
+              "__typename": "CommentRelationResponseCollection"
+            },
+            "__typename": "Product",
+            "thumbnail": {
+              "data": {
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_thumb_36a7d44337.jpg",
+                  "__typename": "UploadFile"
+                },
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "hover": {
+              "data": {
+                "attributes": {
+                  "alternativeText": null,
+                  "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/WEBM_Clingy_Octopus_f83f27dd82.webm",
+                  "__typename": "UploadFile"
+                },
+                "__typename": "UploadFileEntity"
+              },
+              "__typename": "UploadFileEntityResponse"
+            },
+            "gallery": {
+              "data": [
+                {
+                  "id": "19547",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_1_896d4bb255.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19545",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_2_06e663059a.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19548",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_3_4bbffb7ebe.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19546",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_4_c2864b8b80.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                },
+                {
+                  "id": "19549",
+                  "attributes": {
+                    "alternativeText": null,
+                    "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Clingy_Octopus_5_7b43b66fc7.jpg",
+                    "__typename": "UploadFile"
+                  },
+                  "__typename": "UploadFileEntity"
+                }
+              ],
+              "__typename": "UploadFileRelationResponseCollection"
+            },
+            "keywords": "octopus, octopode, sea, ocean, animal, marine, clingy, articulated, magnet, cute, collectible",
+            "files": [
+              {
+                "text": "README",
+                "commercial_only": false,
+                "file": {
+                  "data": {
+                    "id": "19504",
+                    "__typename": "UploadFileEntity"
+                  },
+                  "__typename": "UploadFileEntityResponse"
+                },
+                "__typename": "ComponentPageFiles"
+              },
+              {
+                "text": "FILES",
+                "commercial_only": false,
+                "file": {
+                  "data": {
+                    "id": "19505",
+                    "__typename": "UploadFileEntity"
+                  },
+                  "__typename": "UploadFileEntityResponse"
+                },
+                "__typename": "ComponentPageFiles"
+              }
+            ],
+            "categories": {
+              "data": [
+                {
+                  "id": "9",
+                  "attributes": {
+                    "name": "Articulated",
+                    "slug": "articulated",
+                    "__typename": "Category"
+                  },
+                  "__typename": "CategoryEntity"
+                },
+                {
+                  "id": "19",
+                  "attributes": {
+                    "name": "Animals",
+                    "slug": "animals",
+                    "__typename": "Category"
+                  },
+                  "__typename": "CategoryEntity"
+                }
+              ],
+              "__typename": "CategoryRelationResponseCollection"
+            },
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "name": "Filament",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Printer Type",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                },
+                {
+                  "attributes": {
+                    "name": "Intermediate",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Difficulty",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                },
+                {
+                  "attributes": {
+                    "name": "Long (5 hours - 12 hours)",
+                    "parent_tag": {
+                      "data": {
+                        "attributes": {
+                          "name": "Printing Time",
+                          "__typename": "ParentTag"
+                        },
+                        "__typename": "ParentTagEntity"
+                      },
+                      "__typename": "ParentTagEntityResponse"
+                    },
+                    "__typename": "Tag"
+                  },
+                  "__typename": "TagEntity"
+                }
+              ],
+              "__typename": "TagRelationResponseCollection"
+            },
+            "related_products": {
+              "data": [],
+              "__typename": "ProductRelationResponseCollection"
+            },
+            "products_related": {
+              "data": [],
+              "__typename": "ProductRelationResponseCollection"
+            },
+            "seo": null
+          }
+        }
+      ],
+      "__typename": "ProductEntityResponseCollection"
+    }
+  }
+}

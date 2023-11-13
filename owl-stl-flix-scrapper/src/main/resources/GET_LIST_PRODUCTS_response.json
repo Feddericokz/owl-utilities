@@ -1,0 +1,95 @@
+{
+  "id": "1114",
+  "attributes": {
+    "name": "Snowman Cookie Stash",
+    "slug": "snowman-cookie-stash",
+    "thumbnail": {
+      "data": {
+        "attributes": {
+          "alternativeText": null,
+          "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Snowman_Cookie_Stash_thumb_229444e20d.jpg",
+          "__typename": "UploadFile"
+        },
+        "__typename": "UploadFileEntity"
+      },
+      "__typename": "UploadFileEntityResponse"
+    },
+    "hover": {
+      "data": {
+        "attributes": {
+          "alternativeText": null,
+          "url": "https://s3.us-east-2.amazonaws.com/static.stlflix.com/Snowman_Cookie_Stash_WEBM_3bdc4c6a55.webm",
+          "__typename": "UploadFile"
+        },
+        "__typename": "UploadFileEntity"
+      },
+      "__typename": "UploadFileEntityResponse"
+    },
+    "categories": {
+      "data": [
+        {
+          "id": "16",
+          "attributes": {
+            "slug": "useful-prints",
+            "name": "Useful Prints",
+            "__typename": "Category"
+          },
+          "__typename": "CategoryEntity"
+        },
+        {
+          "id": "37",
+          "attributes": {
+            "slug": "christmas-1",
+            "name": "Christmas",
+            "__typename": "Category"
+          },
+          "__typename": "CategoryEntity"
+        },
+        {
+          "id": "10",
+          "attributes": {
+            "slug": "home-decor",
+            "name": "Home Decor",
+            "__typename": "Category"
+          },
+          "__typename": "CategoryEntity"
+        }
+      ],
+      "__typename": "CategoryRelationResponseCollection"
+    },
+    "tags": {
+      "data": [
+        {
+          "id": "6",
+          "attributes": {
+            "slug": "intermediate",
+            "name": "Intermediate",
+            "__typename": "Tag"
+          },
+          "__typename": "TagEntity"
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "slug": "filament",
+            "name": "Filament",
+            "__typename": "Tag"
+          },
+          "__typename": "TagEntity"
+        },
+        {
+          "id": "10",
+          "attributes": {
+            "slug": "very-long-more-than-12-hours",
+            "name": "Very Long (More than 12 hours)",
+            "__typename": "Tag"
+          },
+          "__typename": "TagEntity"
+        }
+      ],
+      "__typename": "TagRelationResponseCollection"
+    },
+    "__typename": "Product"
+  },
+  "__typename": "ProductEntity"
+}
