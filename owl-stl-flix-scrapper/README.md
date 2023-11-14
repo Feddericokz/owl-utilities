@@ -1,10 +1,10 @@
-# NLP - Natural Language Programming to achieve simple tasks faster.
+# NLP - Natural Language Programming to achieve simple tasks faster. A Web scrapping tutorial using GPT.
 
 ## Introduction
 
 I've been the owner of a 3D printer for a while, so it's not un-common for me to talk about 3D printing stuff in
 general. We all know that smartphones don't listen to us, right? but conveniently come up with an ad for what you've
-been speaking about. I've started to get adds for this particular site called STLFlix, granting access to over 1000 3D designs. 
+been speaking about. I've started to get ads for this particular site called STLFlix, granting access to over 1000 3D designs. 
 New collections are uploaded weekly, and it even allows the legal sale of printed models. The cost? About 3000 ARS a month. 
 To put it in perspective, I have previously paid between 500 and 1000 ARS for designs on other sites. So, this seemed like a great deal.
 
